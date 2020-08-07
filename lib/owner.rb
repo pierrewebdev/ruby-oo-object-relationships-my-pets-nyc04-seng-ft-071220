@@ -38,6 +38,7 @@ class Owner
   end
   
   def buy_cat(cat_instance)
+    binding.pry
     cat_instance.owner = self
   end
   
