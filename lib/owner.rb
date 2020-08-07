@@ -20,6 +20,10 @@ class Owner
     @@all
   end
   
+  def self.count #tells us how many owner instances there are
+    @@all.length
+  end
+  
   
   
   
