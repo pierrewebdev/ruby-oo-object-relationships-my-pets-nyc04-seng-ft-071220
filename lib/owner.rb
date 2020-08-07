@@ -30,8 +30,8 @@ class Owner
   end
   
   def cats
+    Cat.all.select{|cat|cat.owner == self}
     binding.pry
-    Cats.select{|cat|cat.owner == self}
   end
   
   
