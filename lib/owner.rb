@@ -41,8 +41,11 @@ class Owner
     cat_instance = Cat.new(cat_instance,self)
   end
   
-    def buy_dog(dog_instance)
+  def buy_dog(dog_instance)
     dog_instance = Dog.new(dog_instance,self)
+  end
+  
+  def walk_dogs
   end
   
   
