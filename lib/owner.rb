@@ -58,7 +58,6 @@ class Owner
     my_dogs = self.dogs
     all_my_pets = my_cats + my_dogs
     all_my_pets.each{|pet|pet.mood = "nervous"}
-    binding.pry
   end
   
   
