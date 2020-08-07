@@ -9,7 +9,6 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @mood = "nervous"
     @@all << self
   end
   
