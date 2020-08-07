@@ -47,7 +47,7 @@ class Owner
   
   def walk_dogs
     self.dogs.each {|dog|dog.mood = "happy"}
-    self
+    self.dogs
     binding.pry
   end
   
