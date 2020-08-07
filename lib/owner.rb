@@ -57,7 +57,6 @@ class Owner
     my_cats = self.cats
     my_dogs = self.dogs
     all_my_pets = my_cats + my_dogs
-    binding.pry
     all_my_pets.each{|pet|pet.mood}
     binding.pry
   end
